@@ -10,10 +10,10 @@ class TeslaFactory implements CarFactory
 {
     public function createCar(string $carModel): CarProduct
     {
-        if ($carModel == 'modelo_x')
+        if ($carModel == 'model_x')
         {
             return new TeslaModelX();
-        } elseif ($carModel == 'modelo_s'){
+        } elseif ($carModel == 'model_s'){
             return new TeslaModelS();
         } else {
             throw new \Exception("Modelo de carro: \"{$carModel}\" não suportado pelo sistema");
