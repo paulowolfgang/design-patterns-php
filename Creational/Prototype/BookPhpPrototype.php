@@ -11,6 +11,6 @@ class BookPhpPrototype extends BookPrototype
 
     public function __clone()
     {
-        echo 'Livro de PHP clonado.';
+        echo 'Livro de PHP clonado. <br>';
     }
 }
